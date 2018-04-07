@@ -3,7 +3,7 @@ param (
     [string]$PrinterName, # Printer model
     [string]$PrinterSuffix, # Printer description
     [string]$PrinterIP, 
-    [string]$DriversRepository = "\\nfm-fplik\IT_wymiana\___Uporzadkowane\Sterowniki\Drukarki", # 
+    [string]$DriversRepository = "\\network-share\Printers\Drivers", # 
     [switch]$ListSupportedPrinters, 
     [string]$UserName,
     [switch]$Share,
