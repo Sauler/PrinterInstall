@@ -26,7 +26,8 @@ Script for remote installation of network printers
     * x64
 3. Now download printer drivers and put it in corresponding directory in our printer folder in `DriversRepository`
 4. After that create `Driver.ini` file in printer directory which must contain that:
-
-    Name = name of printer driver from ini file
-    Inix86 = name of inf file with driver for x86 printer installation
-    Inix64 = name of inf file with driver for x64 printer installation
+```
+Name = name of printer driver from ini file
+Infx86 = name of inf file with driver for x86 printer installation
+Infx64 = name of inf file with driver for x64 printer installation
+```
