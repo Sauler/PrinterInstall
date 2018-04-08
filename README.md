@@ -15,19 +15,19 @@ Script for remote installation of network printers
 ### TODO
 
 ## How to create drivers repository
-1. In 'DriversRepository' create new folder with 'PrinterName'.
+1. In `DriversRepository` create new folder with 'PrinterName'.
 2. Next in that folder you have to create folders with names equal to supported system and arch. Like that:
 * Xerox7835
     * Windows 7
-        * x86
-        * x64
+     * x86
+     * x64
     * Windows 10
-        * x86
-        * x64
+     * x86
+     * x64
 3. Now download printer drivers and put it in corresponding directory in our printer folder in 'DriversRepository'
-4. After that create 'Driver.ini' file in printer directory which must contain that:
-'
+4. After that create `Driver.ini` file in printer directory which must contain that:
+`
 Name = name of printer driver from ini file
 Inix86 = name of inf file with driver for x86 printer installation
 Inix64 = name of inf file with driver for x64 printer installation
-'
+`
